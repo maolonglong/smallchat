@@ -1,0 +1,14 @@
+.{
+    .name = "smallchat",
+    .version = "0.1.0",
+    .dependencies = .{
+        .evio = .{
+            .url = "https://github.com/maolonglong/evio-lite.zig/archive/35306cc5c0a1285e40754ff88ceaa7283752b3d1.tar.gz",
+            .hash = "122034238b253415ec7989f2ba2937f78884be2bc48c978bf67a24719a8024302fb9",
+        },
+        .mimalloc = .{
+            .url = "https://github.com/maolonglong/zig-mimalloc/archive/4663f73bd1ece7cb3e22d6c31a319c276891a0a8.tar.gz",
+            .hash = "1220be44414e166cd3dcd72b1638554a7db40fa494cbb67351bda72f36515e6a8999",
+        },
+    },
+}
